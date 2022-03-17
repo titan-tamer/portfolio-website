@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="img/favicon/favicon.ico">
+  <title>Portfolio of Tubbs</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <!-- Header including the logo and the main navigation -->
+  <header class="page-header">
+    <!-- Add Logo here -->
+    <img src="img/logo.png" alt="Kelly Tubbs logo containing name" class="page-header__item">
+    <nav class="main-navigation page-header__item">
+       <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+             <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+          </li>
+          <li role="presentation">
+             <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+          </li>
+          <li role="presentation">
+             <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+          </li>
+          <li role="presentation">
+             <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact</a>
+          </li>
+       </ul>
+    </nav>
+  </header>
+  <div class="contact">
+    <h1>Contact</h1>
+    <div>
+      <a href="mailto:kellytubbs9@gmail.com">Contact me</a><br>
+      <br>
+    Kelly Tubbs<br>
+    Fort Worth, TX <br>
+    <br>
+    Phone <a href="tel:9038140442">903-814-0442</a><br>
+    Email <a href="mailto:kellytubbs9@gmail.com">kellytubbs9@gmail.com</a><br>
+    Skype <a href="skype:kellymattingly"> kellymattingly</a>
+    </div>
+    <br>
+    <form action="" method="post" id="contact-form">
+      <label class="standard-label" for="contact-email">E-mail: </label>
+      <input type="email" id="contact-email" required>
+      <br>
+      <label class="standard-label" for="contact-telephone">Telephone: </label>
+      <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+      <br>
+      <label class="standard-label" for="message">Message: </label>
+      <textarea maxlength="240" id="message" required></textarea>
+      <br>
+      <br>
+      <input type="submit" value="Send message">
+    </form>
+  </div>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://github.com/titan-tamer" target="_blank"><img src="img/github_icon.svg" alt="GitHub"></a>
+        <a href="https://twitter.com/Titan_Tamer" target="_blank"><img src="img/twitter_icon.svg" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/in/tubbskelly/" target="_blank"><img src="img/linkedin_icon.svg" alt="LinkedIn"></a>
+      </div>
+    </footer>
+<script src="js/tota11y.min.js"></script>
+</body>
+</html>
