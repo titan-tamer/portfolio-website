@@ -32,7 +32,6 @@ h2 {
 h3 {
   font-size: 18px;
   font-weight: 700;
-  font-style: italic;
 }
 
 a {
@@ -114,7 +113,7 @@ a:active {
 }
 
 .about {
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
@@ -138,7 +137,7 @@ a:active {
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: lightyellow;
 }
 
 .grid__item:last-child {
