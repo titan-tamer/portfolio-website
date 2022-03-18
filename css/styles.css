@@ -172,7 +172,7 @@ a:active {
   }
 }
 
-.button, button {
+ .button, button {
   /* overwrites browser defaults */
   /* resets the border */
   border: none;
